@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    text-decoration: double;
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.details h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.details p{
+    color: #555;
+    line-height: 22px;
+}
+
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;;
+    margin-top: 30px 0;
+    border-radius: 5px;
+}
+
+.image{
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+
+.image img{
+    height: 450px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image:hover .men{
+    left: 45%;
+}
+
+.me{
+    margin-left: 8%;
+    margin-top: 6%;
+}
+
+.me h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.skill{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.skill h2{
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.skill h1{
+    font-size: 60px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.Project{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.Project h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+span{
+    color: orange;
+}
+
+.contact{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.contact h1{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-style: italic;
+}
